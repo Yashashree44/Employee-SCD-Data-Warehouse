@@ -1,0 +1,6 @@
+# Python dependencies for the Bronze layer data generation script
+# Install using: pip install -r requirements.txt
+
+faker==22.0.0        # Used to generate fake employee names, dates, and other sample data
+pandas==2.1.4         # Used to build and preview DataFrames before converting to Spark
+pyspark==3.5.0        # Required if running the notebook outside Databricks
